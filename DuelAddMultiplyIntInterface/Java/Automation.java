@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class Automation {
 
     public static void main(String[] args) {
-        //Scanner s = new Scanner(System.in);
-        //System.out.print("Enter Add/Multiply Constant:");
-        //int constant = s.nextInt();
-        //int age = 23;
-        //AgeAddMultply agechanger = new AgeAddMultply(constant);
-        //agechanger.PrintAddMultiply(age);
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter Add/Multiply Constant:");
+        int constant = s.nextInt();
+        int age = 23;
+        AgeAddMultply agechanger = new AgeAddMultply(constant);
+        agechanger.PrintAddMultiply(age);
     }
 }
